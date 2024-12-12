@@ -29,7 +29,8 @@ $alumnos = [
 ];
 
 for ($i=0; $i < $alumnos; $i++) { 
-    echo  "Notas de los estudiantes: " .$alumnos;
+    echo  "Notas de los estudiantes: ";
+    
 }
 
 
