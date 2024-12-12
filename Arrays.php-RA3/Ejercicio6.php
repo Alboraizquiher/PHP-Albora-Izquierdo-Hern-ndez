@@ -17,7 +17,19 @@ mayor a menor -->
 <h1>Ejercicio 6</h1>
 <?php
 
-$alumnos = []
+$alumnos = [
+
+    "Miguel" => 5,
+    "luis"=> 7,
+    "Marta"=>10,
+    "Isabel"=>8,
+    "Aitor"=>4,
+    "pepe"=>1
+
+]
+
+
+    
 
 
 ?>
