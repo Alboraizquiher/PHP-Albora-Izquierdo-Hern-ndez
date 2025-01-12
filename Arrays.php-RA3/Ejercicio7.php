@@ -24,13 +24,14 @@ $alumnos = [
 
 ];
 
-$media = array_sum($alumnos) /6;
+$media = array_sum($alumnos) /6 ;
+$redondeado =round($media,2);
 
-echo  "Media de las notas: " .$media ."\n";
+echo  "Media de las notas son : $redondeado <br> ";
 
-for ($i=0; $i < $alumnos ; $i++) { 
-    if ($alumnos[$i]  > $media ) {
-        echo "Los alumnos con nota por encima de la media son:  ".$alumnos[$i]; 
+foreach ($alumnos as $nombre => $nota) { 
+    if ($nota  > $redondeado ) {
+        echo " $nombre: $nota <br>" ; 
     }
 }
 
