@@ -90,7 +90,8 @@ function mostrarValorAlmacen()
 
 /**2) Para la semana del “manga”. Aplica una rebaja del 30% a todos los productos
 que tengan por idioma “japonés”.
-a. Arreglar la función aplicarDescuentoManga() (1 punto) */
+a. Arreglar la función aplicarDescuentoManga() (1 punto)
+hacerlo asi */
 function aplicarDescuentoManga()
 {
     global $inventario;
